@@ -1,0 +1,65 @@
+.mainService {
+    position: relative;
+  }
+  
+  .serviceSection {
+    background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url('../../assets/about/about (2).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      background-image: url('../../assets/service/deco1.png');
+      height: 75px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  }
+  
+  .section2 {
+    width: 1240px;
+    height: 645px;
+    top: 650px;
+    left: 100px;
+    border-radius: 6px 0px 0px 0px;
+    background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url('../../assets/about/about (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bgBlue {
+    width: 620px;
+    height: 322px;
+    top: 650px;
+    left: 100px;
+    background: rgba(18, 55, 112, 1);
+    // position: relative;
+  
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   bottom: 0;
+    //   right: 50%;
+    //   left: 0;
+    //   width: 100%;
+    //   background-image: url('../../assets/about/about (3).png');
+    //   height: 75px;
+    //   background-repeat: no-repeat;
+    //   background-size: 100%;
+    // }
+  }
+  
+  .bgBlack {
+    width: 620px;
+    height: 322px;
+    top: 650px;
+    left: 100px;
+    background: black;
+  }
+  

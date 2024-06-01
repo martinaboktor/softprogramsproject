@@ -1,0 +1,71 @@
+.productSection {
+    background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url(../../assets/product/Rectangl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+  }
+  
+  .mainDiv {
+    position: relative;
+  
+    p {
+      font-size: larger;
+      font-weight: 300;
+    }
+  }
+  
+  .productSection::after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../../assets/product/Frame.png);
+  }
+  
+  .borderItem {
+    border: 0.5px;
+    border-color: var(--main-color);
+    border-style: dashed;
+    border-radius: 24px 0px 24px 0px;
+    width: 400px;
+  }
+  
+  .tableStyle {
+    background-color: rgba(244, 244, 244, 1);
+    border-radius: 6px;
+  }
+  
+  .numberDiv {
+    position: relative;
+  }
+  
+  .numberClass {
+    position: absolute;
+    top: -14%;
+    left: 44%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 100%;
+  }
+  
+  .sneakSection {
+    background-image: url(../../assets/product/rectan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .curentClient {
+    background: linear-gradient(180deg, #123770 2.73%, #1F55A8 81.73%);
+  }
+  
+  .boxDiv {
+    width: 292px;
+  }
+  

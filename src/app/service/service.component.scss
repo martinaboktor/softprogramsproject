@@ -1,0 +1,33 @@
+.mainService {
+    position: relative;
+  }
+  
+  .serviceSection {
+    background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url(../../assets/service/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      background-image: url(../../assets/service/deco1.png);
+      height: 75px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  }
+  
+  .borderItem {
+    border: 0.5px;
+    border-color: var(--main-color);
+    border-style: dashed;
+    border-radius: 24px 0px 24px 0px;
+    width: 550px;
+    height: 100px;
+  }
+  
