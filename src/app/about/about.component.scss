@@ -55,7 +55,11 @@
       opacity: 20%;
     }
   }
-  
+  .section4{
+    background-image: url("/assets/home/bgwhite.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
   .bgBlack {
     width: 620px;
     height: 322px;
@@ -103,6 +107,9 @@
         .fab {
           width: calc(100% / 5);
           animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+          margin: 40px;
+
+
         }
       }
     }

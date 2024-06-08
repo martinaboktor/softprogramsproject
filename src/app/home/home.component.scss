@@ -180,6 +180,11 @@ opacity: 0px;
   background: yellow;
   z-index: 1000;
 }
+.section7{
+  background-image: url("/assets/home/bgwhite.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 .box {
   width: 392.27px;
@@ -227,6 +232,7 @@ opacity: 0px;
       .fab {
         width: calc(100% / 5);
         animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        margin: 40px;
       }
     }
   }

@@ -1,7 +1,18 @@
 .mainService {
     position: relative;
   }
-  
+  h1{
+font-size: 40px;
+font-weight: 500;
+line-height: 60px;
+text-align: left;
+  }
+  .serviceSection span{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
   .serviceSection {
     background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url(../../assets/service/img.png);
     background-repeat: no-repeat;
