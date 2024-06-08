@@ -27,7 +27,10 @@
   html {
     scroll-behavior: smooth;
   }
-  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
   body {
     font-family: "Poppins", sans-serif;
   }
@@ -59,3 +62,35 @@
     width: 42px;
   }
   
+
+  //Carousel//
+  .slick-dots {
+    top: -25px;
+margin-bottom: 30px;
+color: var(--main-color);
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: var(--main-color);
+}
+.slick-dots li button:before {
+  font-size: 8px;}
+  .slick-dots li {
+    margin: 0}
+    .slick-prev:before, .slick-next:before {
+      color: #000;
+      
+    }
+      .slick-prev.slick-arrow.slick-disabled .btn.mr-3,
+      .slick-next.slick-arrow .btn {
+        display: none !important;
+    }
+    .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+      display: none !important;
+  }
+.mr-3 {
+  display: none !important;
+
+}
+  
+    

@@ -1,208 +1,251 @@
-
-  .imageContainer {
-    position: relative;
+.imageContainer {
+  position: relative;
 }
 
 .arrow {
-    position: absolute;
-    top: 44%; 
-    left: 0%; 
-    transform: translateY(-50%);
-    font-size: 2vw; 
-    cursor: pointer;
+  position: absolute;
+  top: 44%;
+  left: 0%;
+  transform: translateY(-50%);
+  font-size: 2vw;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
-    .arrow {
-        display: none; 
-    }
+  .arrow {
+    display: none;
+  }
 }
 
+.divBckground {
+  width: 100%;
+  height: 285px;
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.Section2 {
+  position: relative;
+}
+
+.btnPosition {
+  position: absolute;
+  bottom: -5%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
   .divBckground {
-    width: 100%;
-    height: 285px;
-    background-color: rgba(244, 244, 244, 1);
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 0;
   }
-  
-  .Section2 {
-    position: relative;
+
+  .text-container {
+    width: 100% !important;
+    padding: 20px;
   }
-  
+
+  .image-container {
+    display: none;
+  }
+
   .btnPosition {
-    position: absolute;
-    bottom: -5%;
-    left: 5%;
-    transform: translateY(-50%);
+    position: static;
+    transform: none;
+    margin-top: 10px;
   }
-  
-  @media (max-width: 768px) {
-    .divBckground {
-      flex-direction: column;
-      align-items: flex-start;
-      height: auto; 
-      padding: 0; 
-    }
-  
-    .text-container {
-      width: 100% !important; 
-      padding: 20px; 
-    }
-  
-    .image-container {
-      display: none; 
-    }
-  
-    .btnPosition {
-      position: static; 
-      transform: none; 
-      margin-top: 10px; 
-    }
-  }
-  
-  .bgImg1 {
-    background-image: linear-gradient(181.12deg, rgba(255, 255, 255, 0) -41.95%, rgba(18, 55, 112, 0.9) 98.71%), url('/assets/home/Rectangle18.png');
-    width: 437px;
-    height: 414px;
-    background-size: cover;
-  }
-  
-  .bgImg2 {
-    background-image: linear-gradient(181.12deg, rgba(255, 255, 255, 0) -41.95%, rgba(18, 55, 112, 0.9) 98.71%), url('/assets/home/recback.png');
-    width: 94px;
-    height: 414px;
-  }
+}
+.section1 p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 613px;
+height: 96px;
+top: 368px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+
+}
+.Section2 p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+width: 690px;
+height: 192px;
+top: 1046px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+
+}
+.bgImg1 {
+  background-image: linear-gradient(
+      181.12deg,
+      rgba(255, 255, 255, 0) -41.95%,
+      rgba(18, 55, 112, 0.9) 98.71%
+    ),
+    url("/assets/home/Rectangle18.png");
+  width: 437px;
+  height: 414px;
+  background-size: cover;
+}
+
+.bgImg2 {
+  background-image: linear-gradient(
+      181.12deg,
+      rgba(255, 255, 255, 0) -41.95%,
+      rgba(18, 55, 112, 0.9) 98.71%
+    ),
+    url("/assets/home/recback.png");
+  width: 94px;
+  height: 414px;
+}
 @media (max-width: 50vh) {
   .bgImg1,
   .bgImg2 {
-    display: none !important; 
+    display: none !important;
   }
 
   .col-md-8 {
-    width: 100%; 
+    width: 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
 
-  .testDiv {
-    background-image: linear-gradient(rgba(18, 55, 112, 0.74), rgba(18, 55, 112, 0.74)), url('/assets/home/Rectangle 157.png');
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-    position: relative;
-  }
-  
-  .testDiv::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-image: url('/assets/home/fback.png');
-    height: 75px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  
-  .section4 {
-    position: relative;
-  }
-  
-  // .section6 {
-  //   position: relative;
-  // }   
-  // .bgDiv6::after {
-  //   content: "";
-  //   position: absolute;
-  //   bottom: 0;
-  //   width: 100%;
-  //   background-image: url('/assets/home/fback.png');
-  //   height: 75px;
-  //   background-repeat: no-repeat;
-  //   background-size: 100%;
-  // }
-  .lineImg {
-    position: absolute;
-    left: 1%;
-    bottom: 13px;
-  }
-  
-  .section6 {
-    width: 100%;
-    height: 657px;
-    top: 3110px;
-    background: linear-gradient(180deg, #123770 2.73%, #1F55A8 81.73%);
-  }
-  
-  .section6::before {
-    content: "";
-    position: absolute;
-    bottom: 50%;
-    background-image: url('/assets/home/Frames.png');
-    height: 75px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background: yellow;
-    z-index: 1000;
-  }
-  
-  .box {
-    width: 392.27px;
-    height: 380px;
-    border-radius: 6px 0px 0px 0px;
-    border-width: 2px 1px 0px 1px;
-    border-style: solid;
-    border-image-source: linear-gradient(179.2deg, #F4620C 0.69%, rgba(255, 255, 255, 0.02) 99.31%);
-    border-image-slice: 1;
-  }
-  
-  .box2 {
-    border-image-source: linear-gradient(359.95deg, #F4620C 4.44%, rgba(255, 255, 255, 0.02) 94.98%);
-    border-width: 0px 1px 2px 1px;
-    border-image-slice: 1;
-  }
-  
-  .btnS {
-    width: 287.2px;
-    height: 60px;
-    border-radius: 6px 0px 0px 0px;
-    background: rgba(255, 230, 215, 0.1);
-  }
-  
-  .container {
-    overflow: hidden;
-    
-    .slider {
-      animation: slidein 30s linear infinite;
-      white-space: nowrap;
-      
-      .logos {
-        width: 50%;
-        display: inline-block;
-        margin: 0px 0;
-        
-        .fab {
-          width: calc(100% / 5);
-          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
-        }
+.testDiv {
+  background-image: linear-gradient(
+      rgba(18, 55, 112, 0.74),
+      rgba(18, 55, 112, 0.74)
+    ),
+    url("/assets/home/Rectangle 157.png");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.testDiv::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url("/assets/home/fback.png");
+  height: 75px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.section4 {
+  position: relative;
+}
+
+// .section6 {
+//   position: relative;
+// }
+// .bgDiv6::after {
+//   content: "";
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   background-image: url('/assets/home/fback.png');
+//   height: 75px;
+//   background-repeat: no-repeat;
+//   background-size: 100%;
+// }
+.lineImg {
+  position: absolute;
+  left: 1%;
+  bottom: 13px;
+}
+
+.section6 {
+  width: 100%;
+  height: 657px;
+  top: 3110px;
+  background: linear-gradient(180deg, #123770 2.73%, #1f55a8 81.73%);
+}
+
+.section6::before {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  background-image: url("/assets/home/Frames.png");
+  height: 75px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background: yellow;
+  z-index: 1000;
+}
+
+.box {
+  width: 392.27px;
+  height: 380px;
+  border-radius: 6px 0px 0px 0px;
+  border-width: 2px 1px 0px 1px;
+  border-style: solid;
+  border-image-source: linear-gradient(
+    179.2deg,
+    #f4620c 0.69%,
+    rgba(255, 255, 255, 0.02) 99.31%
+  );
+  border-image-slice: 1;
+}
+
+.box2 {
+  border-image-source: linear-gradient(
+    359.95deg,
+    #f4620c 4.44%,
+    rgba(255, 255, 255, 0.02) 94.98%
+  );
+  border-width: 0px 1px 2px 1px;
+  border-image-slice: 1;
+}
+
+.btnS {
+  width: 287.2px;
+  height: 60px;
+  border-radius: 6px 0px 0px 0px;
+  background: rgba(255, 230, 215, 0.1);
+}
+
+.container {
+  overflow: hidden;
+
+  .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+
+    .logos {
+      width: 50%;
+      display: inline-block;
+      margin: 0px 0;
+
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
       }
     }
   }
-  
-  @keyframes slidein {
-    from {
-      transform: translate3d(0, 0, 0);
-    }
-    to {
-      transform: translate3d(-100%, 0, 0);
-    }
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
   }
-  
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  to {
+    transform: translate3d(-100%, 0, 0);
   }
-  
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

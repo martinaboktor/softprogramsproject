@@ -19,14 +19,14 @@ $bg-color: #323232;
    overflow: hidden;
    &:after,
    &:before {
-      content: "";
-      position: absolute;
-      display: block;
-      top: 0;
-      height: 100%;
-      width: 6.9444%;
-      z-index: 3;
-      width: 6.9444%;
+      // content: "";
+      // position: absolute;
+      // display: block;
+      // top: 0;
+      // height: 100%;
+      // width: 6.9444%;
+      // z-index: 3;
+      // width: 6.9444%;
    }
    &:after {
       left: 0;
