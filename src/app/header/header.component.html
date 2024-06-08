@@ -1,41 +1,84 @@
 <nav class="navbar navbar-expand-lg bgColor shadow m-1">
-    <div class="container-fluid px-5">
-      <a class="navbar-brand" routerLink="home" routerLinkActive=" text-danger">
-        <img class="w-100" src="assets/header/Logo 2.jpg">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-5 mb-lg-0 mx-5 textWHeader">
-          <ng-container *ngIf="!isSpecialPage; else backToHome">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" routerLinkActive=" text-danger" routerLink="home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" routerLinkActive=" text-danger" routerLink="about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" routerLinkActive=" text-danger" routerLink="service">Our Services</a>
-            </li>
-            <!-- <li class="nav-item">
+  <div class="container-fluid px-5">
+    <a class="navbar-brand" routerLink="home" routerLinkActive=" text-danger">
+      <img class="w-100" src="assets/header/Logo 2.jpg" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-5 mb-lg-0 mx-5 textWHeader">
+        <ng-container *ngIf="!isSpecialPage; else backToHome">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLinkActive=" text-danger"
+              routerLink="home"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLinkActive=" text-danger"
+              routerLink="about"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLinkActive=" text-danger"
+              routerLink="service"
+              >Our Services</a
+            >
+          </li>
+          <!-- <li class="nav-item">
               <a class="nav-link active" aria-current="page" routerLinkActive="text-danger" [routerLink]="['/home']" fragment="titi">Our Services</a>
             </li>
              -->
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" routerLinkActive=" text-danger" routerLink="product">Our Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" routerLinkActive=" text-danger" routerLink="contact">Contact Us</a>
-            </li>
-          </ng-container>
-          <ng-template #backToHome>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" routerLinkActive=" text-danger" routerLink="home">Back to Home</a>
-            </li>
-          </ng-template>
-        </ul>
-      </div>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLinkActive=" text-danger"
+              routerLink="product"
+              >Our Products</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLinkActive=" text-danger"
+              routerLink="contact"
+              >Contact Us</a
+            >
+          </li>
+        </ng-container>
+        <ng-template #backToHome>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLinkActive=" text-danger"
+              routerLink="home"
+              >Back to Home</a
+            >
+          </li>
+        </ng-template>
+      </ul>
     </div>
-  </nav>
-  
+  </div>
+</nav>

@@ -44,25 +44,24 @@ $background: rgba(255, 255, 255, 1);
 .rowDiv {
   background-color: $background;
 }
-#name , #email{
+#name,
+#email {
   width: 345px;
-height: 50px;
-top: 96px;
-left: 598px;
-gap: 0px;
-border-radius: 6px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-
+  height: 50px;
+  top: 96px;
+  left: 598px;
+  gap: 0px;
+  border-radius: 6px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }
-#message{
+#message {
   width: 702px;
-height: 150px;
-top: 206px;
-left: 598px;
-gap: 0px;
-border-radius: 6px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-
+  height: 150px;
+  top: 206px;
+  left: 598px;
+  gap: 0px;
+  border-radius: 6px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }

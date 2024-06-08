@@ -1,96 +1,98 @@
 /* Start Variables */
 :root {
-    --main-color: rgba(244, 98, 12, 1);
-    --div-color: rgba(244, 244, 244, 1);
-    --muted-color: rgba(18, 18, 18, 0.5);
-    --icons-color: rgba(18, 55, 112, 1);
-    --sectio-padding: 100px;
-    box-sizing: border-box;
-  }
-  
-  .text-danger {
-    --bs-text-opacity: 1;
-    color: var(--main-color) !important;
-  }
-  
-  /* End Variables */
-  
-  /* Start Global Rules */
-  * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  a{
-    text-decoration: none;
-    color: inherit;
-  }
-  body {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  .main-btn {
-    color: white;
-    background-color: var(--main-color);
-  }
-  
-  .second-btn {
-    color: white;
-    background-color: rgba(255, 230, 215, 0.1);
-  }
-  
-  .divBckground {
-    // background-color: var(--div-color);
-  }
-  
-  .pColor {
-    color: var(--muted-color);
-  }
-  
-  .iconColor {
-    color: var(--icons-color);
-    width: 42px;
-  }
-  
+  --main-color: rgba(244, 98, 12, 1);
+  --div-color: rgba(244, 244, 244, 1);
+  --muted-color: rgba(18, 18, 18, 0.5);
+  --icons-color: rgba(18, 55, 112, 1);
+  --sectio-padding: 100px;
+  box-sizing: border-box;
+}
 
-  //Carousel//
-  .slick-dots {
-    top: -25px;
-margin-bottom: 30px;
-color: var(--main-color);
+.text-danger {
+  --bs-text-opacity: 1;
+  color: var(--main-color) !important;
+}
+
+/* End Variables */
+
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-btn {
+  color: white;
+  background-color: var(--main-color);
+}
+
+.second-btn {
+  color: white;
+  background-color: rgba(255, 230, 215, 0.1);
+}
+
+.divBckground {
+  // background-color: var(--div-color);
+}
+
+.pColor {
+  color: var(--muted-color);
+}
+
+.iconColor {
+  color: var(--icons-color);
+  width: 42px;
+}
+
+//Carousel//
+.slick-dots {
+  top: -25px;
+  margin-bottom: 30px;
+  color: var(--main-color);
 }
 .slick-dots li.slick-active button:before {
-  opacity: .75;
+  opacity: 0.75;
   color: var(--main-color);
 }
 .slick-dots li button:before {
-  font-size: 8px;}
-  .slick-dots li {
-    margin: 0}
-    .slick-prev:before, .slick-next:before {
-      color: #000;
-      
-    }
-      .slick-prev.slick-arrow.slick-disabled .btn.mr-3,
-      .slick-next.slick-arrow .btn {
-        display: none !important;
-    }
-    .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-      display: none !important;
-  }
+  font-size: 8px;
+}
+.slick-dots li {
+  margin: 0;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+.slick-prev.slick-arrow.slick-disabled .btn.mr-3,
+.slick-next.slick-arrow .btn {
+  display: none !important;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  display: none !important;
+}
 .mr-3 {
   display: none !important;
-
 }
-  
-    

@@ -1,135 +1,147 @@
 .mainService {
-    position: relative;
-  }
-  
-  .serviceSection {
-    background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url('../../assets/about/about (2).png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-  
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      width: 100%;
-      background-image: url('../../assets/service/deco1.png');
-      height: 75px;
-      background-repeat: no-repeat;
-      background-size: 100%;
-    }
-  }
-  
-  .section2 {
-    width: 1240px;
-    height: 645px;
-    top: 650px;
-    left: 100px;
-    border-radius: 6px 0px 0px 0px;
-    background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url('../../assets/about/about (1).png');
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+}
 
-  }
-  
-  .bgBlue {
-    width: 620px;
-    height: 322px;
-    top: 650px;
-    left: 100px;
-    background: rgba(18, 55, 112, 1);
-  
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: -475px;
-      right: 50%;
-      left: 308px;
-      width: 613.5px;
-      background-image: url('../../assets/about/about (3).png');
-      height: 437.5px;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      opacity: 20%;
-    }
-  }
-  .section4{
-    background-image: url("/assets/home/bgwhite.png");
+.serviceSection {
+  background-image: linear-gradient(
+      rgba(18, 18, 18, 0.8),
+      rgba(18, 18, 18, 0.8)
+    ),
+    url("../../assets/about/about (2).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("../../assets/service/deco1.png");
+    height: 75px;
     background-repeat: no-repeat;
     background-size: 100%;
   }
-  .bgBlack {
-    width: 620px;
-    height: 322px;
-    top: 650px;
-    left: 100px;
-    background: black;
-  }
-  // section4
-  
-  .box {
-    width: 392.27px;
-    height: 380px;
-    border-radius: 6px 0px 0px 0px;
-    border-width: 2px 1px 0px 1px;
-    border-style: solid;
-    border-image-source: linear-gradient(179.2deg, #F4620C 0.69%, rgba(255, 255, 255, 0.02) 99.31%);
-    border-image-slice: 1;
-  }
-  
-  .box2 {
-    border-image-source: linear-gradient(359.95deg, #F4620C 4.44%, rgba(255, 255, 255, 0.02) 94.98%);
-    border-width: 0px 1px 2px 1px;
-    border-image-slice: 1;
-  }
-  
-  .btnS {
-    width: 287.2px;
-    height: 60px;
-    border-radius: 6px 0px 0px 0px;
-    background: rgba(255, 230, 215, 0.1);
-  }
-  
-  .container {
-    overflow: hidden;
-    
-    .slider {
-      animation: slidein 30s linear infinite;
-      white-space: nowrap;
-      
-      .logos {
-        width: 50%;
-        display: inline-block;
-        margin: 0px 0;
-        
-        .fab {
-          width: calc(100% / 5);
-          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
-          margin: 40px;
+}
 
+.section2 {
+  width: 1240px;
+  height: 645px;
+  top: 650px;
+  left: 100px;
+  border-radius: 6px 0px 0px 0px;
+  background-image: linear-gradient(
+      rgba(18, 18, 18, 0.8),
+      rgba(18, 18, 18, 0.8)
+    ),
+    url("../../assets/about/about (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-        }
+.bgBlue {
+  width: 620px;
+  height: 322px;
+  top: 650px;
+  left: 100px;
+  background: rgba(18, 55, 112, 1);
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -475px;
+    right: 50%;
+    left: 308px;
+    width: 613.5px;
+    background-image: url("../../assets/about/about (3).png");
+    height: 437.5px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 20%;
+  }
+}
+.section4 {
+  background-image: url("/assets/home/bgwhite.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bgBlack {
+  width: 620px;
+  height: 322px;
+  top: 650px;
+  left: 100px;
+  background: black;
+}
+// section4
+
+.box {
+  width: 392.27px;
+  height: 380px;
+  border-radius: 6px 0px 0px 0px;
+  border-width: 2px 1px 0px 1px;
+  border-style: solid;
+  border-image-source: linear-gradient(
+    179.2deg,
+    #f4620c 0.69%,
+    rgba(255, 255, 255, 0.02) 99.31%
+  );
+  border-image-slice: 1;
+}
+
+.box2 {
+  border-image-source: linear-gradient(
+    359.95deg,
+    #f4620c 4.44%,
+    rgba(255, 255, 255, 0.02) 94.98%
+  );
+  border-width: 0px 1px 2px 1px;
+  border-image-slice: 1;
+}
+
+.btnS {
+  width: 287.2px;
+  height: 60px;
+  border-radius: 6px 0px 0px 0px;
+  background: rgba(255, 230, 215, 0.1);
+}
+
+.container {
+  overflow: hidden;
+
+  .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+
+    .logos {
+      width: 50%;
+      display: inline-block;
+      margin: 0px 0;
+
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        margin: 40px;
       }
     }
   }
-  
-  @keyframes slidein {
-    from {
-      transform: translate3d(0, 0, 0);
-    }
-    to {
-      transform: translate3d(-100%, 0, 0);
-    }
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
   }
-  
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  to {
+    transform: translate3d(-100%, 0, 0);
   }
-  
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
